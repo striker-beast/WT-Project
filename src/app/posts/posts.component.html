@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    <div *ngFor="let post of posts">
+        
+        <div id="tv">
+                <p>{{post.title}}</p>
+            <div id="desc">{{post.description}}</div>
+           
+            <div id="gap"> <img [src]="'assets/images/' + post.image" style="width: 350px;"/></div>
+        </div>
+        <br><br><br><br><br><br>
+    </div> 
+</div>

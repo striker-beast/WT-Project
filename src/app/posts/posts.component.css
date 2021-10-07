@@ -1,0 +1,58 @@
+body {background-color: #ddd; margin: 3rem;}
+
+#tv {
+  position: relative;
+  width: 950px;
+  height: 400px;
+  background: rgb(148, 176, 175);
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  border-radius: 100px;
+  color: white;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+  
+}
+#tv:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+  background: rgb(241, 83, 141);
+}
+
+p{
+    font-size: 40px;
+    padding-left: 90px;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+#tv:hover #gap{
+    margin-left: 30px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    }
+#tv:hover p{
+    background: black;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    padding-left: 250px;
+}
+#desc{
+    font-size: 17px;
+    padding-left: 40px;
+}
+
+#gap{
+    margin-top: 40px;
+    margin-left: 700px;
+    border-radius: 20px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+/* #gap:hover{
+    margin-left: 30px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+} */
+/* 
+p:hover{
+    
+} */
